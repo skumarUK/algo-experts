@@ -23,7 +23,7 @@ public class StackUsingArray {
 
 
     public int pop(){
-        if(top ==-1) throw new NoSuchElementException("Stack is Empty");
+        if(top ==-1) throw new NoSuchElementException("Stack is Empty.");
         int ele = stack[top];
         top--;
         return ele;
