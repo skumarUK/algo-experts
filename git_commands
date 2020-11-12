@@ -1,0 +1,23 @@
+git branch mybranch
+git checkout mybranch
+git branch -a
+
+git add <filename>
+git commit <filename>
+git status 
+
+git push -u original mybranch
+git branch -a
+git checkout master
+
+git pull origin master
+
+git diff
+
+git merge mybranch
+
+git push origin master
+
+git push origin --delete mybranch
+git branch -d mybranch
+
